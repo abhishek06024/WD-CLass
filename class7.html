@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* internal CSS */
+        .email{
+            position: relative; 
+            left: 200px;
+        }
+        form {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 class="xyz">Lorem ipsum dolor sit amet.</h1>
+    <h1 class="xyz">Lorem ipsum dolor sit amet.</h1>
+    <h1 class="xyz">Lorem ipsum dolor sit amet.</h1>
+    <h2 class="xyz">Lorem ipsum dolor sit amet.</h2> -->
+    <form action="" style="background-color: rgb(127, 255, 136);">
+    <fieldset>
+        <legend>Basic Details</legend>
+    <label for="uname"> Name:- </label>
+    <input type="text" name="uname" value="Akash" required readonly > 
+    <label for="email" class="email" value="abcdef@ghikk.com"  >Email:-</label>
+    <input type="email" name="email" class="email" disabled > <br>
+    <label for="pwd"  >Password:-</label>
+    <input type="password" name="pwd" id=""><br>
+    <input type="date" name="" min="2000-01-01" max="2018-12-31">
+    <input type="text" name="" pattern="[A-Za-z0-9]{5}" title="Capital A to Z .small a to z and 0 to 9 and only 5 characters">
+    
+    </fieldset>
+            
+        <input type="radio" name="gender" >
+        <label for="gender">Male</label><br>
+        <input type="radio" name="gender" id="">
+        <label for="gender">female</label><br>
+        <input type="radio" name="gender" id="">
+        <label for="gender">Other</label><br>
+        <input type="checkbox" name="game1">
+        <label for="game1">Football</label><br>
+        <input type="checkbox" name="game2" >
+        <label for="game1">Cricket</label><br>
+        <input type="checkbox" name="game3" checked>
+        <label for="game1">Badmintan</label><br>
+        <select name="country" id="">
+            <optgroup label="My country">
+
+                <option value="india" selected>India</option>
+            </optgroup>
+            <optgroup label="Other Country">
+
+                <option value="Canada" >Canada</option>
+                <option value="USA">USA</option>
+            </optgroup>
+            <optgroup label="Padosi Country">
+
+                <option value="Pakistan">Pakistan</option>
+            </optgroup>
+        </select> <br>
+        <textarea name="address" id="" cols="30" rows="5"></textarea><br>
+        <input type="file" name="" id=""><br>
+        <input type="color" name="" id="">
+        <input type="submit" value="submit">
+        <input type="reset" value="Clear">
+    </form>
+    <a href="https://www.youtube.com/">Go to another page</a>
+</body>
+</html>
