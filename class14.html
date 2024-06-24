@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: brown;
+            border: 2px solid  green;
+            /* height: 200px;
+            width: 500px; */
+            display: block;
+            /* position: absolute; */
+            /* top bottom left right */
+            /* top  : 20px ;
+            right: 20px; */
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color: aquamarine;
+            padding: 10px 15px;
+            /* z-index: 1; */
+        }
+
+        .container:hover .dropdown{
+            display: block;
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, placeat.</h1>
+        <div class="dropdown">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+        </div>
+    </div>
+
+</body>
+</html>

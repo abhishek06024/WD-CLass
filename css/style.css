@@ -1,0 +1,46 @@
+/* 
+inline css  <h1 style="color:red;">This is a heading</h1>
+internal css
+external css new css file create krte ho 
+
+selectors in css
+
+1 root selector (*)             
+2 id seelctor (#)
+3 class selector (.)
+4 tag name selector (H1)
+
+satic unit = px dpi cm in (Fixed Size on all scree size's)
+dynamic unit = % em rem vh vw (Depends on the screen size )
+
+ */
+
+ *{
+    /* CSS Reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pic{
+
+    height: 300px;
+    width: 500px;
+
+}
+
+.pec{
+    background-image: url(../img/mountains-8451480_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text{
+    font-size: 8rem;
+   
+}
