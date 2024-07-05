@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Control JS</title>
+</head>
+<body>
+    <h1>Flow control statements in Java Script </h1>
+    <script>
+        // if 
+        // if else
+        // else if 
+        // switch
+        // break
+        // continue
+        let a= 10;
+        let b=5;
+        // if (a>b) {
+        //     console.log(a/b);
+        // }
+        // else{
+        //     console.log(a+b);
+        // }
+        let lassi = "paji";
+
+        // if(lassi == 'verka'){
+        //     console.log("Buy Verka lassi ");
+        // }
+        // else if (lassi=='Amoul'){
+        //     console.log("Buy Amoul lassi ");
+            
+        // }
+        // else{
+        //     console.log("Go back to home ");
+
+        // }
+
+        // nested if
+
+            lassi='paji';
+            let lassi_available= true;
+        let lassi_price = 10;
+        if(lassi_available){
+            if (lassi=='verka') {
+                if(lassi_price == 10){
+                    
+                    console.log("Buy Verka lassi ");
+                }
+                else{
+                    console.log('Go back simran')
+                }
+            }
+            else{
+                console.log('buy Amul lassi')
+            }
+
+        }
+        else{
+            console.log("Go back to home2 ");
+        }
+
+        // switch statement
+        lassi_brand='verka';
+        switch (lassi_brand) {
+            case 'verka':
+                console.log("Buy 20 rupee packet");
+                break;
+            case 'amul' :
+            console.log("Buy 15 rupee packet");
+            break;
+            case 'paji':
+            console.log("Buy 10 rupee packet");
+            break;
+            default:
+            console.log("Go back to home");
+                break;
+        }
+        // looping statement
+        // for while do while
+        console.log()
+        // for(variable;condition;increment/decrement){
+        //     body
+        // }
+
+        for (let i = 0; i < 10; i++) {
+            console.log(i);
+        }
+        let j=10;
+        while (j>=0) {
+            console.log(j);
+            j--;
+        }
+        let k =10;
+        do{
+            console.log(k);
+            k++;
+        }while(k<=20);
+        let numbers = [10,20,30,40,50,60,70,80,90,100];
+        for (let index = 0; index < 10 ; index++) {
+                console.log(numbers[index]);
+            
+        }
+    </script>
+</body>
+</html>
